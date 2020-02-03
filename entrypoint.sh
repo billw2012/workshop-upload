@@ -14,6 +14,7 @@ cat << EOF > ./workshop.vdf
     "appid"            "$1"
     "publishedfileid"  "$2"
     "contentfolder"    "$repo/$3"
+    "visibility"       "1"
     "changenote"       "$4"
 }
 EOF
